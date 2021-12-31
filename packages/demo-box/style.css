@@ -1,0 +1,7 @@
+#demo-box {
+    width: 512px;
+    height: 80%;
+    position: fixed;
+    right: 40px;
+    overflow: auto;
+}
