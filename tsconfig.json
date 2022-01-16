@@ -20,5 +20,5 @@
       "packages/*": ["packages/*"]
     },
   },
-  "include": ["./src"]
+  "include": ["./"]
 }

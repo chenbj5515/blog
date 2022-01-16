@@ -7,7 +7,8 @@ import {
 import ReactDOM from 'react-dom';
 import hljs from 'highlight.js/lib/core';
 import javascript from 'highlight.js/lib/languages/javascript';
-import Scheduler from 'packages/react-scheduler/src'; 
+import Scheduler from 'packages/react-scheduler/src';
+import Lane from 'packages/react-lane/src';
 import 'highlight.js/styles/monokai.css';
 import './style.css';
 
@@ -34,6 +35,11 @@ const navs = [
 const sections = [
     {
         articles: [
+            {
+                title: 'Lane模型的工作原理',
+                time: 'Dec 31, 2021',
+                link: '/react-lane'
+            },
             {
                 title: 'React scheduler学习笔记',
                 time: 'Dec 25, 2021',
@@ -117,9 +123,8 @@ const App = () => {
                     <Routes>
                         <Route path="/" element={<Main />} />
                         <Route path="/react" element={<Sections sections={sections}/>} />
-                        <Route path="/react-scheduler" element={
-                            <Scheduler />
-                        } />
+                        <Route path="/react-scheduler" element={<Scheduler />} />
+                        <Route path="/react-lane" element={<Lane />} />
                     </Routes>
                 </BrowserRouter>
             </main>

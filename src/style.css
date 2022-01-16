@@ -3,6 +3,7 @@ html, body, #root {
     height: 100%;
     background: #fafafa;
     font-weight: 400;
+    overflow-x: hidden;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Microsoft Yahei', sans-serif;
 }
 
@@ -81,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section {
+    line-height: 1.9;
     width: 640px;
     margin: 0 auto;
     display: block;

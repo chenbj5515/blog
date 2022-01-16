@@ -12,6 +12,7 @@ import {
     unstable_cancelCallback as cancelCallback,
     CallbackNode
 } from "scheduler";
+// @ts-ignore
 import Scheduler from './scheduler.mdx';
 import {DemoBox} from 'packages/demo-box';
 import ArtButton from 'packages/artworks/classic-button';

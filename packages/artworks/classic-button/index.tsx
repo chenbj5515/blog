@@ -3,7 +3,7 @@ import './style.css';
 
 interface IProps {
     text: string;
-    width: number;
+    width?: number;
     onClick: React.MouseEventHandler<HTMLButtonElement>;
 }
 
