@@ -1,0 +1,40 @@
+button {
+  width: 140px;
+  margin: 10px;
+  padding: 5px;
+}
+span {
+  word-break: break-all;
+}
+
+.btn-0 {
+  left: 0px;
+}
+
+.btn-1 {
+  left: 160px;
+}
+
+.btn-2 {
+  left: 320px;
+}
+
+.btn-3 {
+  left: 480px;
+}
+
+.pri-1 {
+  color: red;
+}
+.pri-2 {
+  color: green;
+}
+.pri-3 {
+  color: blue;
+}
+.pri-4 {
+  color: pink;
+}
+.pri-5 {
+  color: black;
+}

@@ -1,12 +1,7 @@
-import reactRefresh from '@vitejs/plugin-react-refresh';
-import mdx from 'vite-plugin-mdx';
-import path from 'path';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-export default {
-  plugins: [reactRefresh(), mdx()],
-  resolve: {
-    alias: {
-      'packages': path.resolve(__dirname, './packages')
-    }
-  }
-}
+// https://vitejs.dev/config/
+export default defineConfig({
+  plugins: [react()]
+})
